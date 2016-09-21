@@ -1,0 +1,50 @@
+@font-face {
+    font-family: alrightsans-black; 
+    src: url("../fonts/alrightsans-black-webfont.ttf");
+}
+
+@font-face {
+    font-family: alrightsans-thin; 
+    src: url("../fonts/alrightsans-thin-webfont.woff");
+}
+
+@font-face {
+    font-family: alrightsans-bold; 
+    src: url("../fonts/alrightsans-bold-webfont.ttf");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: alrightsans-thin, sans-serif;
+    color: #000;
+    /*text-align: center;*/
+}
+
+/* nav */
+
+#headerLogo {
+    float: left;
+}
+.nav {
+    display: inline-block;
+}
+.nav a {
+    font-family: alrightsans-thin, sans-serif;
+    color: #000;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 100%;
+}
+
+/* end of nav */
+
+/* main content */
+
+.mainText {
+    text-align: justify;
+}
+
+/* end of main content */
+
+
