@@ -6,7 +6,7 @@ $(function() {
         // prevent animation being triggered until previous animation is completed
         if (!animation) {
             animation = true;
-            // add .selected class when fadeIn completed
+            // add .selected when fadeIn completed
             $('#' + contentId).fadeIn(800, function() {                
                 animation = false;
                 $('#' + contentId).addClass('selected');
@@ -21,9 +21,12 @@ $(function() {
             var contentId = $(this).attr('id').slice(4);
             animation = true;
             selected = $('.selected');
+            // remove .selected from currently active element
             $('.dynContent').removeClass('selected');
+            // animate element
             selected.effect('puff', 600 , function() {
                 animation = false;
+                // function call
                 select(contentId);
             });   
         }
@@ -33,7 +36,11 @@ $(function() {
     $('.moreInfo').click(function(){
         return false;
     })
-    
+
+    // get current year for dynamic copyright text
+    var date = new Date();
+    var year = date.getFullYear();
+    $("#year").text(year);    
 });
 
 

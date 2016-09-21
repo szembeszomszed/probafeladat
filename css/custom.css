@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: alrightsans-thin; 
-    src: url("../fonts/alrightsans-thin-webfont.woff");
+    src: url("../fonts/alrightsans-thin-webfont.ttf");
 }
 
 @font-face {
@@ -37,7 +37,7 @@ h3 {
 
 a {
     font-family: alrightsans-bold, sans-serif;
-    color: #de0172;
+    color: #E81F84;
     text-transform: uppercase;
     text-align: right;
 }
@@ -50,6 +50,11 @@ span {
 
 #headerLogo {
     float: left;
+    margin-left: 20px;
+}
+
+#navBar {
+    text-align: center;
 }
 
 .nav {
@@ -59,8 +64,9 @@ span {
 .nav li a:hover, 
 .nav li a:focus, 
 .nav li a:active { 
-    color: #DE0172; 
+    color: #E81F84; 
     background-color: #fff; 
+    font-weight: bold;
 }
 
 .nav a {
@@ -125,10 +131,19 @@ span {
     font-size: 72px;
     letter-spacing: 5px;
     line-height: 0.8em;
-    display: inline-block;
+    /*display: inline-block;*/
 }
 
 /* end of dynamic content */
+
+/* footer */
+
+footer {
+    color: #fff;
+    background-color: #E81F84;
+}
+
+/* end of footer */
 
 
 
