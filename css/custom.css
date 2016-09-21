@@ -48,3 +48,18 @@ body {
 /* end of main content */
 
 
+/* dynamic content */
+.dynContent {
+    display: none;
+}
+
+.selected {
+    display: block;
+}
+
+
+/* end of dynamic content */
+
+
+
+
