@@ -37,7 +37,7 @@ h3 {
 
 a {
     font-family: alrightsans-bold, sans-serif;
-    color: #E30074;
+    color: #de0172;
     text-transform: uppercase;
     text-align: right;
 }
@@ -56,14 +56,11 @@ span {
     display: inline-block;    
 }
 
-.nav li a:hover {
-    color: #E30074;
-    background-color: #fff;
-}
-
-.nav li a:focus {
-    color: #E30074;
-    background-color: #fff;
+.nav li a:hover, 
+.nav li a:focus, 
+.nav li a:active { 
+    color: #DE0172; 
+    background-color: #fff; 
 }
 
 .nav a {
@@ -90,6 +87,7 @@ span {
 
 .mainText {
     text-align: justify;
+    margin: 40px 0;
 }
 
 /* end of main content */
@@ -98,7 +96,7 @@ span {
 /* dynamic content */
 
 .dynContent {
-    display: none;
+    display: none;    
 }
 
 .selected {
@@ -109,10 +107,25 @@ span {
     float: left;
 }
 
+.dynContent.selected {
+    text-align: right;
+}
+
+.dynContent.selected .text {
+    text-align: justify;
+}
+
+.dynContent.selected .logo {
+    display: inline-block;
+}
+
 .dynContent h2 {
-    font-size: 65px;
     text-align: right;
     font-weight: bold;
+    font-size: 72px;
+    letter-spacing: 5px;
+    line-height: 0.8em;
+    display: inline-block;
 }
 
 /* end of dynamic content */
