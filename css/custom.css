@@ -1,9 +1,4 @@
 @font-face {
-    font-family: alrightsans-black; 
-    src: url("../fonts/alrightsans-black-webfont.ttf");
-}
-
-@font-face {
     font-family: alrightsans-thin; 
     src: url("../fonts/alrightsans-thin-webfont.ttf");
 }
@@ -11,6 +6,11 @@
 @font-face {
     font-family: alrightsans-bold; 
     src: url("../fonts/alrightsans-bold-webfont.ttf");
+}
+
+@font-face {
+    font-family: alrightsans-black; 
+    src: url("../fonts/alrightsans-black-webfont.ttf");
 }
 
 body {
@@ -37,7 +37,7 @@ h3 {
 
 a {
     font-family: alrightsans-bold, sans-serif;
-    color: #E81F84;
+    color: #E20074;
     text-transform: uppercase;
     text-align: right;
 }
@@ -64,7 +64,7 @@ span {
 .nav li a:hover, 
 .nav li a:focus, 
 .nav li a:active { 
-    color: #E81F84; 
+    color: #E20074; 
     background-color: #fff; 
     font-weight: bold;
 }
@@ -140,7 +140,7 @@ span {
 
 footer {
     color: #fff;
-    background-color: #E81F84;
+    background-color: #E20074;
 }
 
 /* end of footer */
