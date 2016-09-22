@@ -6,6 +6,7 @@ $(function() {
         // prevent animation being triggered until previous animation is completed
         if (!animation) {
             animation = true;
+            $('footer').stop();
             // add .selected when fadeIn completed
             $('#' + contentId).fadeIn(800, function() {                
                 animation = false;

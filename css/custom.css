@@ -137,15 +137,16 @@ span {
 
 /* footer */
 
-footer {
+.footer {
     color: #fff;
     background-color: #E20074;
     margin-top: 75px;
     padding: 40px 0;
     text-align: center;
+    /*position: absolute;*/
 }
 
-footer .row {
+.footer .row {
     margin: 15px 0;
 }
 
@@ -159,11 +160,11 @@ footer .row {
     margin: 0 7px;    
 }
 
-footer a:hover {
+.footer a:hover {
     text-decoration: none;
 }
 
-footer a i:hover {
+.footer a i:hover {
     color: #E20074;
 }
 
